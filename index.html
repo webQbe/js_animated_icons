@@ -19,9 +19,29 @@
     </style>
 </head>
 <body>
-    
+
     <!-- ADDING AN ICON -->
-    <div id="chain" class="fa-solid fa-link"></div>
+    <div id="chain" class="fa"></div>
+
+
+
+    <!-- ADD JAVASCRIPT --> 
+     <script>
+
+        function brakeChain(){
+
+            // Select Icon
+            let chain = document.getElementById('chain');
+
+            // Add Icon by Unicode
+            chain.innerHTML = "&#xf0c1;";
+        }
+
+        brakeChain();
+
+     </script>
+
+
 
 </body>
 </html>
