@@ -35,6 +35,14 @@
 
             // Add Icon by Unicode
             chain.innerHTML = "&#xf0c1;";
+
+            // Change Icon after 1 second
+            setTimeout(function(){
+
+                // chain broken icon
+                chain.innerHTML = "&#xf127;";
+
+            }, 1000); 
         }
 
         brakeChain();
