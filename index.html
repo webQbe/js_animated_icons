@@ -10,7 +10,7 @@
     <title>Animated Icons</title>
 
     <style>
-        #chain{
+        #chain, #battery{
 
             font-size: 50px; 
 
@@ -22,6 +22,10 @@
 
     <!-- ADDING AN ICON -->
     <div id="chain" class="fa"></div>
+
+    <br><br>
+
+    <div id="battery" class="fa"></div>
 
 
 
@@ -45,14 +49,17 @@
             }, 1000); 
         }
 
+        // Call Animation
         brakeChain();
 
         // Call brakeChain() every 2 sec
         setInterval(brakeChain, 2000);
 
+
      </script>
 
-
+     <!-- LOAD BATTERY ANIMATION -->
+     <script src="main.js"></script>
 
 </body>
 </html>
