@@ -32,3 +32,6 @@ function chargeBattery(){
 
 // Run Animation
 chargeBattery();
+
+// Run Animation every 5 seconds
+setInterval(chargeBattery, 5000);
